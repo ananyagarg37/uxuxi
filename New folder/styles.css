@@ -478,7 +478,7 @@ section {
     color: var(--light-color);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
 }
 
 .feature-description h2 {
