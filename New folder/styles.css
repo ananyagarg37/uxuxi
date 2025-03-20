@@ -1,11 +1,11 @@
-/* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Variables */
+
 :root {
     --primary-color: #1e3459;
     --secondary-color: #2b2f3b;
@@ -19,14 +19,14 @@
     --beige-color: #cec0af;
 }
 
-/* Global Styles */
+
 body {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: var(--dark-color);
     background-color: var(--light-color);
-    overflow-x: hidden;
+   
 }
 
 .container {
@@ -111,7 +111,7 @@ section {
     text-transform: uppercase;
 }
 
-/* Header Styles */
+
 .header {
     position: absolute;
     top: 0;
@@ -188,7 +188,6 @@ section {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 .hero-section {
     height: 100vh;
     background-size: cover;
@@ -283,7 +282,6 @@ section {
     border-color: var(--primary-color);
 }
 
-/* About Section */
 .about-section {
     background-color: var(--light-color);
 }
@@ -317,7 +315,7 @@ section {
     color: var(--secondary-color);
 }
 
-/* Services Section */
+
 .services-section {
     background-color: var(--light-color);
     padding: 80px 0;
@@ -365,7 +363,7 @@ section {
     font-size: 16px;
 }
 
-/* Floor Plans Section */
+
 .floor-plans-section {
     background-color: var(--light-color);
     padding: 80px 0;
@@ -425,7 +423,7 @@ section {
     margin-bottom: 20px;
 }
 
-/* Features Section */
+
 .features-section {
     background-color: var(--light-color);
     padding: 80px 0;
@@ -499,7 +497,7 @@ section {
     line-height: 1.8;
 }
 
-/* Gallery Section */
+
 .gallery-section {
     padding: 80px 0;
     background-color: var(--light-color);
@@ -550,7 +548,7 @@ section {
     opacity: 1;
 }
 
-/* Contact Section */
+
 .contact-section {
     padding: 80px 0;
     background-color: var(--light-color);
@@ -590,7 +588,7 @@ section {
     margin: 0 auto;
 }
 
-/* Footer */
+
 .footer {
     background-color: var(--secondary-color);
     color: var(--light-color);
@@ -647,7 +645,7 @@ section {
     height: 24px;
 }
 
-/* Page Banner */
+
 .page-banner {
     height: 50vh;
     background-size: cover;
@@ -689,7 +687,7 @@ section {
     margin: 0 auto;
 }
 
-/* Header Scrolled State */
+
 .header.scrolled {
     position: fixed;
     background-color: rgba(43, 47, 59, 0.9);
@@ -698,7 +696,7 @@ section {
     transition: all 0.3s ease;
 }
 
-/* Floor Plan Details on Floor Plans Page */
+
 .floor-plan-details {
     display: flex;
     flex-wrap: wrap;
@@ -783,7 +781,7 @@ select:focus {
     border-color: var(--primary-color);
 }
 
-/* Feature Pages Styles */
+
 .features-intro-section {
     padding-bottom: 0;
 }
@@ -851,7 +849,6 @@ select:focus {
     margin-right: 10px;
 }
 
-/* Apartment Features Section */
 .apartment-features-section {
     background-color: #f8f8f8;
 }
@@ -895,7 +892,7 @@ select:focus {
     color: var(--gray-color);
 }
 
-/* Neighborhood Section */
+
 .neighborhood-section {
     padding: 80px 0;
 }
@@ -938,7 +935,7 @@ select:focus {
 .neighborhood-item p {
     color: var(--gray-color);
 }
-/* From Uiverse.io by Nawsome */ 
+
 .continue-application {
     --color: #fff;
     --background: #404660;
