@@ -1,6 +1,4 @@
-/* Responsive CSS */
 
-/* Large Devices (less than 1200px) */
 @media (max-width: 1199px) {
     .container {
         max-width: 960px;
@@ -23,7 +21,6 @@
     }
 }
 
-/* Medium Devices (less than 992px) */
 @media (max-width: 991px) {
     .container {
         max-width: 720px;
@@ -112,7 +109,7 @@
     }
 }
 
-/* Small Devices (less than 768px) */
+
 @media (max-width: 767px) {
     .container {
         max-width: 540px;
@@ -153,7 +150,6 @@
     }
 }
 
-/* Extra Small Devices (less than 576px) */
 @media (max-width: 575px) {
     .container {
         padding: 0 20px;
@@ -185,7 +181,6 @@
     }
 }
 
-/* Mobile Menu Styles */
 .mobile-nav {
     position: fixed;
     top: 0;
