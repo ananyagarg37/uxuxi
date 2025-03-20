@@ -293,16 +293,16 @@ section {
 }
 
 .about-icon {
-    width: 30%;
+    width: 100%;
     text-align: center;
 }
 
 .about-icon img {
-    max-width: 200px;
+    max-width: 500px;
 }
 
 .about-content {
-    width: 65%;
+    width: 75%;
 }
 
 .about-content h2 {
